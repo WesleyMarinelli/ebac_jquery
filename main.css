@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+}
+
+#app {
+    
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+form {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #349738;
+    color: white;
+    margin-left: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #67c76c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#priorityInput {
+    margin-left: 16px;
+}
+
+#taskForm {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
